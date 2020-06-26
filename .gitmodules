@@ -1,0 +1,3 @@
+[submodule "Spirit/vendor/spdlog"]
+	path = Spirit/vendor/spdlog
+	url = git@github.com:boredstiff/spdlog.git

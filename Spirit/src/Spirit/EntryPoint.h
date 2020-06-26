@@ -5,6 +5,10 @@
 extern Spirit::Application* Spirit::CreateApplication();
 
 int main(int argc, char** argv) {
+	Spirit::Log::Init();
+	SP_CORE_WARN("Initialized Log");
+	SP_INFO("Hello");
+
 	auto app = Spirit::CreateApplication();
 	app->Run();
 	delete app;
